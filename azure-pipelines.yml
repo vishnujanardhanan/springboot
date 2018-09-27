@@ -1,5 +1,5 @@
 name: TestPipeline
 resources:
-  containers:
-  - container: java
-  	image: openjdk:8-jdk-alpine3.7  # container image name
+containers:
+- container:java
+image:openjdk:8-jdk-alpine3.7  # container image name
